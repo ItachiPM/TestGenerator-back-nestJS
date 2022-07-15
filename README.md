@@ -1,7 +1,8 @@
 # Test Generator API Backend
 This project was create to help people to study. It is also good to make a simple quiz for fun.
 
-This app was rewrite with https://github.com/ItachiPM/TestGenerator-back but not work in 100% like that (this one is improved)
+This app was rewrite with https://github.com/ItachiPM/TestGenerator-back but not work in 100% like that (this one is improved),
+it is not compatibile with TestGenerator-Front
 
 ## Table of Contents
 * [General Info](#general-information)
