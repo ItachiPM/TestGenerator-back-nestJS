@@ -1,3 +1,53 @@
+# Test Generator API Backend
+This project was create to help people to study. It is also good to make a simple quiz for fun.
+
+This app was rewrite with https://github.com/ItachiPM/TestGenerator-back but not work in 100% like that (this one is improved)
+
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+
+
+## General Information
+This project was create to help study to exam in school but it is also good to did simple quiz and have fun with friends.
+
+The purpose is fast and enjoyable study base on question and answer and solve test
+
+I did this because someone asked me to create app to study for exam.
+It is also a credit project in MegaK course.
+
+
+## Technologies Used
+- Typescript - version 4.3
+- NestJS - version 8.0
+- Passport JS - version 0.6
+- Passport-jwt - version 1.0
+- typeorm - version 0.3.7
+
+
+## Features
+- authorization and authentication user by passport JS
+- hashed a password of user
+- possibility to add new question by user.
+- possibility to get all question and get all question from module
+- possibility to generate exam and exam from module with specific number of question
+- shuffle answer in questions exam
+- shared types with frontend
+
+
+## Acknowledgements
+This project was created on base knowledge gained on MegaK course.
+
+
+## Contact
+michal.pietraszek98@gmail.com
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -49,13 +99,13 @@ $ npm run start:prod
 
 ```bash
 # unit tests
-$ npm run test
+$ npm run exam
 
 # e2e tests
-$ npm run test:e2e
+$ npm run exam:e2e
 
-# test coverage
-$ npm run test:cov
+# exam coverage
+$ npm run exam:cov
 ```
 
 ## Support
